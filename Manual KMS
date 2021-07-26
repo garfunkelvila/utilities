@@ -1,0 +1,25 @@
+//------------------------------------
+// OFFICE
+cd "C:\Program Files\Microsoft Office\Office16"
+cd "C:\Program Files(x86)\Microsoft Office\Office16"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_KMS_Client-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_KMS_Client-ul.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_KMS_Client-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_MAK-pl.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_MAK-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_MAK-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlusVL_MAK-ul-phn.xrm-ms"
+cscript ospp.vbs /dstatus
+cscript ospp.vbs /inpkey:XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+cscript ospp.vbs /sethst:192.168.1.1
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
+
+//------------------------------------
+// Windows
+cd C:\Windows\System32\
+cscript slmgr.vbs /upk
+cscript slmgr.vbs /cpky
+cscript slmgr.vbs /ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX
+cscript slmgr.vbs /skms 192.168.1.1
+cscript slmgr.vbs /ato
