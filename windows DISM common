@@ -8,4 +8,5 @@ DISM /Online /Cleanup-Image /AnalyzeComponentStore
 DISM /Online /Cleanup-Image /RestoreHealth
 DISM /Online /Cleanup-Image /RestoreHealth /source:WIM:X:\Sources\Install.wim:1 /LimitAccess
 
+# Check index
 DISM /Get-WimInfo /WimFile:X:\sources\install.wim
