@@ -66,6 +66,37 @@ cscript ospp.vbs /dstatus
 
 //------------------------------------
 
+//------------------------------------
+// OFFICE 2021
+FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH	Office LTSC Professional Plus 2021
+FTNWT-C6WBT-8HMGF-K9PRX-QV9H8	Project Professional 2021
+KNH8D-FGHT4-T8RK3-CTDYJ-K2HT4	Visio LTSC Professional 2021
+
+cd "C:\Program Files\Microsoft Office\Office16"
+cd "C:\Program Files(x86)\Microsoft Office\Office16"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_KMS_Client_AE-ul.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_KMS_Client_AE-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_KMS_Client_AE-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE3-ul-phn.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE3-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE3-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE3-pl.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE2-ul-phn.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE2-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE2-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE2-pl.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE1-ul-phn.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE1-ul-oob.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE1-ppd.xrm-ms"
+cscript ospp.vbs /inslic:"..\root\Licenses16\ProPlus2024VL_MAK_AE1-pl.xrm-ms"
+cscript ospp.vbs /dstatus
+cscript ospp.vbs /inpkey:
+cscript ospp.vbs /sethst:192.168.10.10
+cscript ospp.vbs /act
+cscript ospp.vbs /dstatus
+
+//------------------------------------
+
 //Windows
 cd C:\Windows\System32\
 cscript slmgr.vbs /upk
