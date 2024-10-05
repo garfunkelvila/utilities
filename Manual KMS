@@ -67,10 +67,8 @@ cscript ospp.vbs /dstatus
 //------------------------------------
 
 //------------------------------------
-// OFFICE 2021
-FXYTK-NJJ8C-GB6DW-3DYQT-6F7TH	Office LTSC Professional Plus 2021
-FTNWT-C6WBT-8HMGF-K9PRX-QV9H8	Project Professional 2021
-KNH8D-FGHT4-T8RK3-CTDYJ-K2HT4	Visio LTSC Professional 2021
+// OFFICE 2024 (NOT WORKING!!!!)
+2TDPW-NDQ7G-FMG99-DXQ7M-TX3T2	Office LTSC Professional Plus 2024
 
 cd "C:\Program Files\Microsoft Office\Office16"
 cd "C:\Program Files(x86)\Microsoft Office\Office16"
